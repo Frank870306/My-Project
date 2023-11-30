@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+    crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="login.css">
+  <link rel="icon" href="./Triumph icon.ico">
+</head>
+<body>
+    
+  <div class="header">
+    <div class="block ">
+        <a href="./index.html">
+        <img src="./Triumph1.jpg" alt="">
+        </a>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">首頁</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  產品簡介
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="http://www.triumphtaiwan.com/product_list/1">ROADSTERS</a></li>
+                  <li><a class="dropdown-item" href="http://www.triumphtaiwan.com/product_list/2">ADVENTURE</a></li>
+                  <li><a class="dropdown-item" href="http://www.triumphtaiwan.com/product_list/3">MODERN CLASSICS</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+    <div class="btnArea item">
+        <a href="./login.html">登入會員</a>
+        <span>｜</span>
+        <a href="./signup.html">註冊會員</a>
+    </div>
+</div>
+
+<div class="loginPage">
+  <div class="loginText">
+      <h1>Login</h1>
+  </div>
+  <div class="loginInput">
+
+      <form action="">
+          <i class="fa-solid fa-envelope"></i>
+          <label for="">Email</label>
+          <input type="email" placeholder="123@example.com" class="emailInput">
+          <label for="">密碼</label>
+          <input type="password">
+          <div class="keepArea">
+              <input type="checkbox">
+              <label for="">保持登入</label>
+              <button type="button"><a href="./signup.html">註冊會員</a></button>
+          </div>
+          <a href="./index.html">
+          <button type="button" class="sumBtn">登入</button>
+          </a>
+      </form>
+
+  </div>
+
+</div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"></script>
+</body>
+</html>

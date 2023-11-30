@@ -1,0 +1,76 @@
+$mainColor: #1e293b;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@600&display=swap');
+body{
+    background-color: black;
+}
+
+.header {
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    align-items: end;
+    justify-content: space-around;
+    background-color: black;
+
+
+    .block {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 20px;
+    }
+
+
+    .item{
+        font-family: 'Noto Serif JP', serif;
+        margin-bottom: 20px;
+        font-size: 16pt;
+    }
+
+
+    .phone {
+        margin-left: 50px;
+        margin-right: -150px;
+        i{
+            font-size: 20pt;
+        }
+    }
+
+    .btnArea {
+        width: 300px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: $mainColor;
+        margin-bottom: 20px;
+        font-size: 14pt;
+        color: white;
+        border-radius: 5px;
+        margin-left: 30px;
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        span {
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+    }
+}
+.footer{
+    background-color: rgb(139, 130, 130);
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    button{
+        font-family: 'Noto Serif JP', serif;
+        margin: 20px;
+        width: 400px;
+        height: 200px;
+        text-align: center;
+    }
+  }

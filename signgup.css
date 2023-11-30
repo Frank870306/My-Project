@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@600&display=swap");
+body {
+  background-color: black;
+}
+
+.header {
+  width: 100vw;
+  height: 20vh;
+  display: flex;
+  align-items: end;
+  justify-content: space-around;
+  background-color: black;
+}
+.header .bg-light {
+  margin-bottom: 15px;
+}
+.header .block {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+.header .item {
+  font-family: "Noto Serif JP", serif;
+  margin-bottom: 20px;
+  font-size: 16pt;
+}
+.header .phone {
+  margin-left: 50px;
+  margin-right: -150px;
+}
+.header .phone i {
+  font-size: 20pt;
+}
+.header .btnArea {
+  width: 300px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1e293b;
+  margin-bottom: 20px;
+  font-size: 14pt;
+  color: white;
+  border-radius: 5px;
+  margin-left: 30px;
+}
+.header .btnArea a {
+  color: white;
+  text-decoration: none;
+}
+.header .btnArea span {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.dis1 {
+  margin-top: 5%;
+}
+.dis1 h1 {
+  color: white;
+  margin-left: 45%;
+  margin-bottom: 2%;
+}
+.dis1 form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  transition: 0.8s;
+  margin-left: 40%;
+}
+.dis1 form i {
+  font-size: 16pt;
+  color: #1e293b;
+  position: absolute;
+  left: 10px;
+}
+.dis1 form label {
+  font-size: 14pt;
+  margin-bottom: 5px;
+  color: white;
+}
+.dis1 form input {
+  box-sizing: border-box;
+  width: 300px;
+  height: 40px;
+  padding-left: 35px;
+  font-size: 16pt;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 0;
+  box-shadow: 0px 2px 5px #1e3a8a;
+}
+.dis1 form button {
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 150px;
+  height: 50px;
+  font-size: 24pt;
+  background-color: #1e293b;
+  border: 0;
+  border-radius: 5px;
+}
+.dis1 form button a {
+  text-decoration: none;
+  color: white;
+}
+.dis1 form .btnsubmit {
+  margin-right: 75%;
+}
+.dis1 form .fa-envelope {
+  top: 45px;
+}
+.dis1 form .fa-user {
+  top: 125px;
+}
+.dis1 form .lock1 {
+  top: 210px;
+}
+.dis1 form .lock2 {
+  top: 290px;
+}/*# sourceMappingURL=signgup.css.map */
